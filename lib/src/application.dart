@@ -7,7 +7,7 @@ class Application extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return RandomThemeBuilder(
-      initialTheme: ThemeData.light(),
+      initialTheme: ThemeData.dark(),
       builder: (context, theme) {
         return MaterialApp(
           title: AppStrings.appName,
